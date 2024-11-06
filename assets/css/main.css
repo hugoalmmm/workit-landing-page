@@ -99,8 +99,12 @@ button:hover {
 .hero-image {
     width: 35%;
     position: absolute;
-    left: 672px;
+    right: 672px;
     bottom: -184px;
+}
+
+.bottom-section-hero {
+    width: 100%;
 }
 
 .description-section {
@@ -112,6 +116,7 @@ button:hover {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
 }
 
 .li-description {
@@ -138,13 +143,22 @@ button:hover {
     font-weight: 500;
 }
 
+.bottom-section-description {
+    width: 100%;
+}
+
 .louis-section {
     display: flex;
+    position: relative;
 }
 
 .image-louis {
     background-color: var(--green);
     border-radius: 100%;
+    position: absolute;
+    left: 464px;
+    top: 112px;
+    z-index: -1;
 }
 
 .description-louis-wrapper {
@@ -152,6 +166,9 @@ button:hover {
     color: var(--white);
     width: 736px;
     padding: 64px;
+    margin-left: auto;
+    margin-right: 344px;
+    margin-top: 280px;
 }
 
 .description-louis-wrapper h3 {
@@ -182,6 +199,14 @@ footer {
     justify-content: center;
     list-style-type: none;
     padding: none;
+}
+
+.ul-socials li {
+    cursor: pointer;
+}
+
+.ul-socials li:hover {
+    color: black;
 }
 
 .li-social:nth-child(2) {
